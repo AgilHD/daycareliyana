@@ -121,28 +121,28 @@
                     </div>
                 </div>
                 <div>
-                    <div class="bg-white rounded-2xl p-8 shadow-2xl">
+                    <div class="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-2xl">
                         <div class="text-center">
                             <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center">
                                 <i class="fas fa-child text-white text-3xl"></i>
                             </div>
-                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Program Unggulan</h3>
+                            <h3 class="text-2xl font-bold text-gray-200 mb-4">Program Unggulan</h3>
                             <div class="space-y-3 text-left">
                                 <div class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    <span class="text-gray-700">Penitipan anak</span>
+                                    <span class="text-gray-100">Penitipan anak</span>
                                 </div>
                                 <div class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    <span class="text-gray-700">Bimbingan Belajar Calistung</span>
+                                    <span class="text-gray-100">Bimbingan Belajar Calistung</span>
                                 </div>
                                 <div class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    <span class="text-gray-700">Tahfidz Al-Qur'an</span>
+                                    <span class="text-gray-100">Tahfidz Al-Qur'an</span>
                                 </div>
                                 <div class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    <span class="text-gray-700">Terapi Wicara</span>
+                                    <span class="text-gray-100">Terapi Wicara</span>
                                 </div>
                             </div>
                         </div>
@@ -166,73 +166,58 @@
             
             <!-- About Image Carousel -->
             <div class="mb-16">
-                <div class="relative max-w-4xl mx-auto">
-                    <!-- Carousel Container -->
-                    <div id="about-carousel" class="relative overflow-hidden rounded-2xl shadow-lg">
-                        <div class="flex transition-transform duration-500 ease-in-out" style="width: 400%;">
-                            <!-- Slide 1 -->
-                            <div class="w-1/4 flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=500&fit=crop" 
-                                     alt="Daycare Activities" 
-                                     class="w-full h-96 object-cover">
-                                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                                    <h3 class="text-white text-xl font-bold mb-2">Aktivitas Edukatif</h3>
-                                    <p class="text-white/90 text-sm">Program belajar yang menyenangkan untuk anak-anak</p>
-                                </div>
-                            </div>
-                            
-                            <!-- Slide 2 -->
-                            <div class="w-1/4 flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=500&fit=crop" 
-                                     alt="Daycare Facilities" 
-                                     class="w-full h-96 object-cover">
-                                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                                    <h3 class="text-white text-xl font-bold mb-2">Fasilitas Modern</h3>
-                                    <p class="text-white/90 text-sm">Lingkungan yang aman dan nyaman untuk bermain</p>
-                                </div>
-                            </div>
-                            
-                            <!-- Slide 3 -->
-                            <div class="w-1/4 flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=500&fit=crop" 
-                                     alt="Daycare Learning" 
-                                     class="w-full h-96 object-cover">
-                                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                                    <h3 class="text-white text-xl font-bold mb-2">Pembelajaran Interaktif</h3>
-                                    <p class="text-white/90 text-sm">Metode belajar yang mengembangkan kreativitas</p>
-                                </div>
-                            </div>
-                            
-                            <!-- Slide 4 -->
-                            <div class="w-1/4 flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&h=500&fit=crop" 
-                                     alt="Daycare Care" 
-                                     class="w-full h-96 object-cover">
-                                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                                    <h3 class="text-white text-xl font-bold mb-2">Perawatan Berkualitas</h3>
-                                    <p class="text-white/90 text-sm">Pendampingan profesional dengan penuh kasih sayang</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Navigation Arrows -->
-                        <button id="carousel-prev" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 z-10">
-                            <i class="fas fa-chevron-left text-lg"></i>
-                        </button>
-                        <button id="carousel-next" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 z-10">
-                            <i class="fas fa-chevron-right text-lg"></i>
-                        </button>
-                        
-                        <!-- Dots Indicator -->
-                        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-                            <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300 active" data-slide="0"></button>
-                            <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="1"></button>
-                            <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="2"></button>
-                            <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="3"></button>
-                        </div>
-                    </div>
+             <div class="relative max-w-4xl mx-auto">
+        <!-- Carousel Container -->
+                 <div id="about-carousel" class="relative overflow-hidden rounded-2xl shadow-lg">
+                   <div class="flex transition-transform duration-500 ease-in-out carousel-inner">
+                <!-- Slide 1 -->
+                <div class="w-full flex-shrink-0">
+                    <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=500&fit=crop" 
+                         alt="Daycare Activities" 
+                         class="w-full h-96 object-cover">
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="w-full flex-shrink-0">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=500&fit=crop" 
+                         alt="Daycare Facilities" 
+                         class="w-full h-96 object-cover">
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="w-full flex-shrink-0">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=500&fit=crop" 
+                         alt="Daycare Learning" 
+                         class="w-full h-96 object-cover">
+                </div>
+                
+                <!-- Slide 4 -->
+                <div class="w-full flex-shrink-0">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&h=500&fit=crop" 
+                         alt="Daycare Care" 
+                         class="w-full h-96 object-cover">
                 </div>
             </div>
+            
+            <!-- Navigation Arrows -->
+            <button id="carousel-prev" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 z-10">
+                <i class="fas fa-chevron-left text-lg"></i>
+            </button>
+            <button id="carousel-next" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 z-10">
+                <i class="fas fa-chevron-right text-lg"></i>
+            </button>
+            
+            <!-- Dots Indicator -->
+            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300 active" data-slide="0"></button>
+                <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="1"></button>
+                <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="2"></button>
+                <button class="carousel-dot w-3 h-3 bg-white/60 hover:bg-white rounded-full transition-all duration-300" data-slide="3"></button>
+            </div>
+        </div>
+     </div>
+        </div>
+
             
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg border border-blue-100">
@@ -504,87 +489,57 @@
             counterObserver.observe(counter);
         });
 
-        // About Carousel Functionality
-        const carousel = document.getElementById('about-carousel');
-        const carouselContainer = carousel.querySelector('.flex');
-        const slides = carousel.querySelectorAll('.w-1/4.flex-shrink-0');
-        const dots = carousel.querySelectorAll('.carousel-dot');
-        const prevBtn = document.getElementById('carousel-prev');
-        const nextBtn = document.getElementById('carousel-next');
-        
-        let currentSlide = 0;
-        const totalSlides = slides.length;
-        
-        function updateCarousel() {
-            const translateX = -currentSlide * 25; // 25% per slide since each slide is w-1/4
-            carouselContainer.style.transform = translateX(${translateX}%);
-            
-            // Update dots
-            dots.forEach((dot, index) => {
-                dot.classList.toggle('active', index === currentSlide);
-                dot.classList.toggle('bg-white', index === currentSlide);
-                dot.classList.toggle('bg-white/60', index !== currentSlide);
-            });
-        }
-        
-        // Initialize carousel to show first slide
-        updateCarousel();
-        
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % totalSlides;
-            updateCarousel();
-        }
-        
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-            updateCarousel();
-        }
-        
-        function goToSlide(index) {
-            currentSlide = index;
-            updateCarousel();
-        }
-        
-        // Event listeners
-        nextBtn.addEventListener('click', nextSlide);
-        prevBtn.addEventListener('click', prevSlide);
-        
+         // About Carousel Functionality
+    const carousel = document.getElementById('about-carousel');
+    const carouselContainer = carousel.querySelector('.carousel-inner');
+    const slides = carousel.querySelectorAll('.w-full.flex-shrink-0');
+    const dots = carousel.querySelectorAll('.carousel-dot');
+    const prevBtn = document.getElementById('carousel-prev');
+    const nextBtn = document.getElementById('carousel-next');
+
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+
+    function updateCarousel() {
+        // Geser container sesuai slide aktif
+        const translateX = -currentSlide * 100;
+        carouselContainer.style.transform = `translateX(${translateX}%)`;
+
+        // Update dots
         dots.forEach((dot, index) => {
-            dot.addEventListener('click', () => goToSlide(index));
+            dot.classList.toggle('active', index === currentSlide);
+            dot.classList.toggle('bg-white', index === currentSlide);
+            dot.classList.toggle('bg-white/60', index !== currentSlide);
         });
-        
-        // Auto-play carousel
-        let autoPlayInterval = setInterval(nextSlide, 5000);
-        
-        // Pause auto-play on hover
-        carousel.addEventListener('mouseenter', () => {
-            clearInterval(autoPlayInterval);
+    }
+
+    // Tombol Next & Prev
+    nextBtn.addEventListener('click', () => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    });
+
+    // Klik Dots
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentSlide = parseInt(dot.dataset.slide);
+            updateCarousel();
         });
-        
-        carousel.addEventListener('mouseleave', () => {
-            autoPlayInterval = setInterval(nextSlide, 5000);
-        });
-        
-        // Touch/swipe support for mobile
-        let startX = 0;
-        let endX = 0;
-        
-        carousel.addEventListener('touchstart', (e) => {
-            startX = e.touches[0].clientX;
-        });
-        
-        carousel.addEventListener('touchend', (e) => {
-            endX = e.changedTouches[0].clientX;
-            const diff = startX - endX;
-            
-            if (Math.abs(diff) > 50) { // Minimum swipe distance
-                if (diff > 0) {
-                    nextSlide(); // Swipe left
-                } else {
-                    prevSlide(); // Swipe right
-                }
-            }
-        });
+    });
+
+    // Autoplay
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    }, 5000); // Ganti slide setiap 5 detik
+
+    // Inisialisasi
+    updateCarousel();
     </script>
 </body>
 </html>
