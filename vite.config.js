@@ -9,8 +9,11 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build',
+        outDir: 'public/build', // 👈 arahkan ke public/build
         manifest: true,
         emptyOutDir: true,
+        rollupOptions: {
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+        },
     },
 });
